@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.contact-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+/* زر رئيسي */
+.contact-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* نافذة الاختيار */
+.modal {
+    display: none; /* مخفية بالبداية */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    text-align: center;
+    z-index: 1000;
+}
+
+/* أزرار النافذة */
+.modal-btn {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#whatsAppBtn { background-color: #25D366; color: white; }
+#emailBtn { background-color: #007bff; color: white; }
+#closeModal { background-color: #6c757d; color: white; }
