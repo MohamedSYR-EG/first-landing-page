@@ -7,17 +7,23 @@
 </head>
 <body>
 
-    <div class="container">
+<div class="container">
     <h1>Hi, I'm [Mohamed] 👋</h1>
     <p>Junior Web Developer</p>
-
     <p>I build simple and clean websites for small businesses.</p>
 
-    <a href="#" id="contactBtn" class="contact-btn">
-        Contact Me
-    </a>
+    <!-- زر رئيسي -->
+    <button id="contactBtn" class="contact-btn">Contact Me</button>
 
+    <!-- نافذة الاختيار (مخفية بالبداية) -->
+    <div id="contactModal" class="modal">
+        <p>How would you like to contact me?</p>
+        <button id="whatsAppBtn" class="modal-btn">WhatsApp</button>
+        <button id="emailBtn" class="modal-btn">Email</button>
+        <button id="closeModal" class="modal-btn">Cancel</button>
     </div>
+</div>
+
 
 
     <script src="script.js"></script>
