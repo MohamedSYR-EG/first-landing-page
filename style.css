@@ -76,3 +76,81 @@ a:hover {
 .container h2 {
     margin-top: 30px;
 }
+/* تحسين لون النص في About Me */
+.container p {
+    color: #222;       /* لون داكن وواضح */
+    line-height: 1.6;  /* يخلي النص مريح للعين */
+    font-size: 16px;
+}
+.container p {
+    color: #ccc;  /* أغمق شوي من اللون القديم */
+    line-height: 1.6;
+    font-size: 16px;
+}
+/* Container العام */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f5f5f5; /* خلفية فاتحة */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* العنوان الرئيسي */
+.container h1 {
+    color: #111; /* داكن وواضح */
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* العناوين الفرعية */
+.container h2 {
+    color: #444; /* أغمق شوي من النص */
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* الفقرات */
+.container p {
+    color: #ccc; /* واضح لكن قريب من اللون القديم الجميل */
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+/* قائمة المهارات */
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills li {
+    background-color: #333; /* مربع غامق */
+    color: #fff;            /* نص أبيض واضح */
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+/* زر الرجوع للـ Portfolio */
+.portfolio-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.portfolio-btn:hover {
+    background-color: #0d6efd;
+    transform: scale(1.05);
+}
